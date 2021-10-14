@@ -1,6 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+:root {
+  --primary-color: #60A5FA;
+}
 
 body {
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     margin: 0;
     text-align: center;
@@ -17,7 +22,7 @@ main {
 
 nav {
     color: white;
-    background-color: #7C3AED;
+    background-color: var(--primary-color);
     padding: 2rem;
     border-bottom-left-radius: 1rem;
     margin-bottom: 4rem;
@@ -43,13 +48,13 @@ input {
 
 button {
     padding: 0.6rem 1rem;
-    background-color: #8B5CF6;
+    background-color: var(--primary-color);
     border-radius: 0.3rem;
     margin-top: 2rem;
 }
 
 .footer {
-    background-color: #7C3AED;
+    background-color: var(--primary-color);
     min-width: 100%;
     padding: 1rem;
     bottom: 0%;
@@ -67,11 +72,11 @@ button {
 
 .link {
     text-decoration: none;
-    color: rgb(189, 184, 228);
+    color: white;
 }
 
 h3{
-    color: white;
+    color: black;
 }
 
 p {
