@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profit or Loss</title>
+    <link href="/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <h1>Stock profit and loss calculator</h1>
+    </nav>
+
+
+    <main>
+    <label for="initial-price">Initial Price: <input type="number" id="initial-price" placeholder="Initial Price" min="0" oninput="validity.valid||(value='');" /></label>
+
+    <label for="quantity">Quantity of stock:<input type="number" id="quantity" placeholder="Quantity" min="0"
+            oninput="validity.valid||(value='');" /></label>
+
+
+    <label for="current-price">Current Price:<input type="number" id="current-price" placeholder="current-price" min="0"
+            oninput="validity.valid||(value='');" /></label>
+
+
+    <button id="btn">Calculate</button>
+
+    <p id="output"><p>
+    </main>
+
+    <footer class="footer">
+        <h3>Lets connect</h4>
+            <ul class="list-non-bullet">
+                <li class="list-item-inline">
+                    <a class="link" href="https://github.com/pnchinmay/">GitHub</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://www.linkedin.com/in/pnchinmay">Linkdin</a>
+                </li>
+                <li class="list-item-inline">
+                    <a class="link" href="https://twitter.com/ManasChinmay">Twitter</a>
+                </li>
+            </ul>
+    </footer>
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
